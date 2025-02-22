@@ -18,14 +18,7 @@ function compareNumbers(a, b) {
 }
 
 function comapareStr(str1, str2) {
-  let result = 0;
-  if (str1 < str2) {
-    result = -1;
-  }
-  if (str1 > str2) {
-    result = 1;
-  }
-  return result;
+  return str1 > str2 ? 1 : -1;
 }
 
 const sorted = array.sort(compNumStr);
